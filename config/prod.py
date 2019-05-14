@@ -21,7 +21,7 @@ DATABASES.update(
             'ENGINE': 'django.db.backends.mysql',
             'NAME': APP_ID,  # 数据库名
             'USER': os.environ.get('BKAPP_DB_USERNAME'),  # 数据库用户
-            'PASSWORD': os.environ.get('DBKAPP_DB_PASSWORD'),  # 数据库密码
+            'PASSWORD': os.environ.get('BKAPP_DB_PASSWORD'),  # 数据库密码
             'HOST': os.environ.get('BKAPP_DB_HOST'),  # 数据库主机
             'PORT': os.environ.get('BKAPP_DB_PORT'),  # 数据库端口
         },
